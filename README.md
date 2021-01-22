@@ -1,4 +1,4 @@
- # Chegg BOT
+ # Chegg BOT BETA
 ![Update](https://badges.pufler.dev/updated/woosal1337/Chegg-Discord-BOT) ![Visits](https://badges.pufler.dev/visits/woosal1337/Chegg-Discord-BOT) ![Created](https://badges.pufler.dev/created/woosal1337/Chegg-Discord-BOT) ![Commits Vusal](https://badges.pufler.dev/commits/monthly/woosal1337)
 
 
