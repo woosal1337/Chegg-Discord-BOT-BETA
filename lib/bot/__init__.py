@@ -11,6 +11,7 @@ from apscheduler.triggers.cron import CronTrigger
 from asyncio import sleep
 import csv
 import os
+import discord
 
 PREFIX = "+"
 OWNER_IDS = [618038532665114624]
@@ -120,6 +121,9 @@ class Bot(BotBase):
             self.stdout = self.get_channel(799828505910575116)
             self.scheduler.add_job(self.print_message, CronTrigger(day_of_week=0, hour=12, minute=0, second=0))
             self.scheduler.start()
+
+            await bot.change_presence(activity=discord.Game(name="https://github.com/Chegg-BOT"))
+
 
             while self.cogs_ready.all_ready():
                 await sleep(0.5)
